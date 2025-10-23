@@ -1,17 +1,38 @@
 *{
-    margin: 0;
+    margin: 10px;
 }
 body{
     font-family: arial;
+    background-color: white;
 }
 a{
     text-decoration: none;
     color: skyblue;
-    text;
+    margin: 10px;
+    font-size: 30px;
 }
 header{
     background-image: url(./R.E-images/header.jpg);
-    height: 300px;background-size: cover;
-    color: aliceblue;
+    height: 800px;background-size: cover;
+    color:lightskyblue;
+    text-align: center; 
+}
+.tagline{
+    font-size: 55px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+.footer-line{
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+}
+footer{
     text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    padding: 20px 0;
 }
