@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+    color: skyblue;
+    text;
+}
+header{
+    background-image: url(./R.E-images/header.jpg);
+    height: 300px;background-size: cover;
+    color: aliceblue;
+    text-align: center;
+}
