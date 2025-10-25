@@ -36,3 +36,35 @@ footer{
     margin-top: 20px;
     padding: 20px 0;
 }
+.info-section{
+    display:flex;
+}
+.features-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.details-button{
+    background-color: orange;
+    width: 90%;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.property-section{
+    background-color: lime;
+    display:flex;
+    flex-wrap:wrap;
+    border: lightskyblue solid 1px;
+}
+.property-listings{border: blueviolet solid 5px;
+    background-color: wheat;
+    margin: 10px;
+    width: 47.9%;
+    height: 30%;
+    justify-content: center;
+}
+img{
+    display: flexbox;
+    max-width: 100%;
+    height: auto;
+}
