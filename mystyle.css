@@ -11,11 +11,19 @@ a{
     margin: 10px;
     font-size: 30px;
 }
-header{
+P{
+    line-height: 1.5;
+}
+header{;
     background-image: url(./R.E-images/header.jpg);
     height: 800px;background-size: cover;
     color:lightskyblue;
     text-align: center; 
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .tagline{
     font-size: 55px;
@@ -35,7 +43,6 @@ footer{
     color: black;
     margin-top: 20px;
     padding: 20px 0;
-<<<<<<< HEAD
 }
 .info-section{
     display:flex;
@@ -58,16 +65,19 @@ footer{
     border: lightskyblue solid 1px;
 }
 .property-listings{border: blueviolet solid 5px;
-    background-color: wheat;
-    margin: 10px;
-    width: 47.9%;
-    height: 30%;
+    background-color:wheat;
     justify-content: center;
+    padding: 0px;
 }
+.property-items{
+
+}
+.property-details{
+
+}
+
 img{
-    display: flexbox;
     max-width: 100%;
-    height: auto;
-=======
->>>>>>> b1f82929c3b863b6910fefed058e9047b8a0c7ee
+
+
 }
