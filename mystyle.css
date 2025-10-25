@@ -35,6 +35,7 @@ footer{
     color: black;
     margin-top: 20px;
     padding: 20px 0;
+<<<<<<< HEAD
 }
 .info-section{
     display:flex;
@@ -67,4 +68,6 @@ img{
     display: flexbox;
     max-width: 100%;
     height: auto;
+=======
+>>>>>>> b1f82929c3b863b6910fefed058e9047b8a0c7ee
 }
