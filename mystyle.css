@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 0;
 }
 body{
     font-family: arial;
@@ -45,7 +45,10 @@ footer{
     padding: 20px 0;
 }
 .info-section{
-    display:flex;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .features-list{
     display: flex;
@@ -53,31 +56,39 @@ footer{
 }
 .details-button{
     background-color: orange;
-    width: 90%;
+    width: 100%;
     color: white;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 20px;
 }
 .property-section{
-    background-color: lime;
     display:flex;
-    flex-wrap:wrap;
-    border: lightskyblue solid 1px;
+    margin: 20px;
 }
-.property-listings{border: blueviolet solid 5px;
-    background-color:wheat;
-    justify-content: center;
-    padding: 0px;
+.property-listings{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.property-items{
+
+.property-items{ 
+    padding: 10px;
 
 }
 .property-details{
-
+    background-color:whitesmoke;
 }
 
 img{
     max-width: 100%;
-
+}
+.icon{display: flex;
+    align-items: center;
+}
+.price{color:green;
+    font-weight: bold;
 
 }
