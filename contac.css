@@ -1,0 +1,124 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+/*body*/
+header{
+    background-color: orange;
+    height: 150px;
+    padding-bottom: 50px;
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.active{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    display: column;
+    justify-content: space-evenly;
+}
+    
+/* main*/
+.main-content{
+    margin: 5%;
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.contact-title{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/*form section*/
+fieldset{border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.contact-box{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+.input-container{
+    display:inline-flex;  
+    margin-right: 210px;
+    margin-left: -1px;
+    padding-left: 300px;
+
+}
+.section{
+    display: inline-flex;
+    padding-left: 266px;
+    margin-right:200px
+}
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-left: 10%;
+    width: 36%;
+    padding-left: 18.6%;
+    padding-right: 5.5%;
+    display: flex;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding:20px;
+
+}
+.footer-link{
+    color: black;
+    border-left: 2px solid black;
+    padding-left: 5px;
+} 
+
+/*utility classes*/
+label{
+    margin-right: 3%;
+    font-weight: bold;
+    
+}
+select, input {
+    max-width: 60%;
+    margin-left: 10%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+
+.input-control{
+    display:block;;    
+    margin-right: 10px;
+    width: 60%;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}

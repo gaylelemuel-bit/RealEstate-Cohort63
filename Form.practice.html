@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pactice</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1> Forms</h1>
+    <form> 
+        <div>
+            <label for="user_name">Username</label>
+            <input type="email" id="user_name" name="user_name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <fieldset>
+                <legend> Personal Info</legend>
+                <input type="text" id="age"name="name" placeholder="Enter your name">
+                <input type="age" id="age"name="number" placeholder="Enter your age">
+            </fieldset>
+        </div>
+        <fieldset>
+            <legend>Contact Preferences</legend>
+              <div class="input-container">
+                <label for="email">Email</label>
+                <input class="label"type="radio" id="email" name="email">
+              </div>
+            <div class="input-container">
+              <label for="phone"> Phone</label>
+              <input class="label"type="radio" id="phone" name="phone">
+            </div>
+            <div class="section">
+             <label for="date">Date</label>
+             <input type="date" id="date" name="date">
+            </div>
+            <div class="section">
+             <label for="time">Time</label>
+             <input type="time" id="time" name="time">
+            </div>
+        </fieldset>
+
+
+    </form>
+    
+</body>
+</html>
