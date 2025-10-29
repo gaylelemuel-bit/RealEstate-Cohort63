@@ -8,38 +8,38 @@
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="secondary-header">
         <div class="menu">
            <h1>Real Estate </h1>
-             <div class="nav-links">
-               <nav class="nav-links">
-                <a class="active" href="#">About</a>
-                <a class="active" href="#">Blog</a>
-                <a class="active" href="#">Contact</a>
+             <div class="menu">
+               <nav>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
                </nav>
              </div>    
         </div> 
      </header>
-<main class="main-content">
-    <div class="contact-title">
+<main class="container">
+    <div class="main-text">
       <h2>Contact</h2>
        <h3>Fill out the form below to get in touch with us:</h3>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ducimus labore quas velit corrupti porro?</p>
      </div>
-     <form action="#" method="post">
+     <form class="my-form">
         <fieldset>
             <legend>Personal Information</legend>
             <div>
                <label for="name">Name:</label>
                <input class="input-control"type="text" id="name" name="name" required>
-              </div>
+               </div>
               <div>
                <label for="email">Email:</label>
-           <input class="input-control"type="text" id="email" name="email" required>
+           <input type="text" id="email" name="email" required>
               </div>
               <div>
            <label for="Phone-number">Phone Number:</label>
-           <input class="input-control"type="tel" id="Phone-number" name="Phone-number" required>
+           <input type="tel" id="Phone-number" name="Phone-number" required>
               </div>
            <div>
            <label for="message">Message:</label>
@@ -48,45 +48,54 @@
         </fieldset>
 
         <fieldset>
-            <legend>Product</legend>
+            <legend>Product Section</legend>
             <label for="type">Type:</label>
-            <select class="input-control"id="type" name="type"> 
+            <select> 
                 <option value="">--option 1--</option>
                 <option value="">--option 2--</option>
                 <option value="">--option 3--</option>
-            </select><br>
+            </select>
+            <div>
             <label for="Number">Number:</label>
-            <input class="input-control"type="tel" id="Number" name="Number">
+            <input type="tel" id="Number" name="Number">
+            </div>
         </fieldset>
         <fieldset>
             <legend>Contact Preferences</legend>
-              <div class="input-container">
+              <div>
                 <label for="email">Email</label>
                 <input type="radio" id="email" name="email">
-              </div>
-            <div class="input-container">
-              <label for="phone"> Phone</label>
-              <input class="label"type="radio" id="phone" name="phone">
+             
+                <label for="phone"> Phone</label>
+                <input class="label"type="radio" id="phone" name="phone">
             </div>
-            <div class="section">
+            <div>
              <label for="date">Date</label>
              <input type="date" id="date" name="date">
-            </div>
-            <div class="section">
+          
              <label for="time">Time</label>
              <input type="time" id="time" name="time" >
             </div>
         </fieldset>
      </form>
 </main> 
-<footer>
-    <p> Powered by <a href="#">Zillow</a></p>
-    <p>Copyright &copy; 2025 <a class="footer-link" href="#">Privacy Policy</a></p>
-<div class="media-icons">
-    <div><i class ="fa-brands fa-facebook"></i></div>
-    <div><i class ="fa-brands fa-linkedin"></i></div>
-    <div><i class ="fa-brands fa-youtube"></i></div>
-</div>
-</footer>   
+<footer class="footer-container">
+        <div class="container footer-flex">
+            <div>
+                <p> Powered by <a href="#">Zillow</a> </p>
+            </div>
+            <div class="my-flex footer-text">
+                <p> Copyright &copy;2025 |</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="my-flex footer-icons">
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-linkedin-in"></i></div>
+                <div><i class="fa-brands fa-youtube"></i></div>
+
+            </div>
+
+        </div>
+
 </body>
 </html>
