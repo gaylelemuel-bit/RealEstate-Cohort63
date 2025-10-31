@@ -35,14 +35,13 @@ header{;
     border: none;
     height: 3px;
     background-color: black;
-    width: 100%;
 }
 footer{
     text-align: center;
     font-size: 14px;
     color: black;
     margin-top: 20px;
-    padding: 20px 0;
+    padding: 20px;
 }
 .info-section{
     margin-top: 50px;
@@ -76,7 +75,6 @@ footer{
 
 .property-items{ 
     padding: 10px;
-
 }
 .property-details{
     background-color:whitesmoke;
@@ -98,7 +96,6 @@ img{
     padding: 20px;
     border-radius: 5px;
     max-width: 100%;
-  
 }
 
 footer{
@@ -107,17 +104,10 @@ footer{
     border: 2px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
-
 }
 .contact-title{
     text-align: center;
     margin-bottom: 20px;
-
-}
-label{
-    margin-right: 3%;
-    font-weight: bold;
-
 }
 select, input{
     max-width: 50%;
@@ -125,7 +115,6 @@ select, input{
     height: 30px;
     border-radius: 5px;
     border: 1px solid gray;
-
 }
 textarea{
     margin-left: 10%;
@@ -136,4 +125,130 @@ textarea{
 }
 .footer-links{
     color: white;
+}
+
+/*MOBILE PHONES*/
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 50px 10px;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  a {
+    font-size: 22px;
+    margin: 5px;
+  }
+
+  .tagline {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: 0;
+  }
+
+  .info-section,
+  .features-list,
+  .property-section,
+  .property-listings {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-button {
+    font-size: 18px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  select,
+  input,
+  textarea {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+
+/*DESKTOP*/
+@media (min-width: 1025px) {
+  header {
+    height: 800px;
+  }
+
+  .tagline {
+    font-size: 55px;
+  }
+
+  a {
+    font-size: 30px;
+  }
+
+  .menu {
+    justify-content: space-evenly;
+  }
+
+  .property-listings {
+    justify-content: space-between;
+  }
+
+  footer {
+    justify-content: space-evenly;
+    font-size: 14px;
+  }
+}
+/*TABLETS*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 600px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .menu {
+    justify-content: space-around;
+  }
+
+  a {
+    font-size: 25px;
+  }
+
+  .tagline {
+    font-size: 40px;
+    margin-top: 150px;
+  }
+
+  .info-section,
+  .features-list,
+  .property-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .property-listings {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .details-button {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 15px;
+  }
 }
